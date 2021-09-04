@@ -3,3 +3,43 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.bg-dark {
+    background-color: #161616;
+}
+
+.w-96 {
+    width: 44em !important;
+}
+
+.green-dot {
+    position: absolute;
+    height: 6px;
+    width: 6px;
+    border-radius: 50%;
+    background-color: rgb(26, 243, 26);
+    top: 0;
+    right: 0;
+    border-color: 5px #161616;
+    margin: 2px;
+}
+
+.text-xsm {
+    font-size: 12px;
+    white-space: nowrap;
+}
+
+.img-bg {
+    height: 350px;
+    width: 300px;
+    background-color: #f7681c;
+    border-top-left-radius: 70px;
+    border-bottom-left-radius: 350px;
+    border-bottom-right-radius: 80px;
+    border-top-right-radius: 80px;
+}
+
+.inside {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}

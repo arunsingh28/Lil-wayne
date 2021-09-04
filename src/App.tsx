@@ -1,7 +1,8 @@
 import React from "react";
+import Index from "./screen";
 
 function App() {
-  return <div className="bg-blue-500 h-screen">sads</div>;
+  return <Index />;
 }
 
 export default App;
