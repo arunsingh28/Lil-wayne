@@ -81,3 +81,25 @@
         padding: 0px 300px;
     }
 }
+
+@media screen and(min-width:480px) {
+    .lg-screen {
+        padding: 0px 10px !important;
+    }
+}
+
+
+/* animation for hamburger menu */
+
+.line1 {
+    transform: rotatez(135deg);
+    animation: close;
+    animation-duration: 0.2s;
+}
+
+.line2 {
+    transform: rotatez(-135deg);
+    animation: close;
+    animation-duration: 0.2s;
+    margin-top: 10px;
+}
