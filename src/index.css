@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaisei+Tokumin&display=swap");
+
 /* ./src/index.css */
 
 @tailwind base;
@@ -38,8 +40,44 @@
     border-top-right-radius: 80px;
 }
 
+.img-bg1 {
+    height: 150px;
+    width: 150px;
+    background: linear-gradient(40deg, #ffcf32, #ffae00);
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 100px;
+}
+
 .inside {
     position: absolute;
     top: 20px;
     left: 20px;
+}
+
+.heading {
+    font-size: 60px;
+    line-height: 50px;
+    font-family: "Kaisei Tokumin", serif;
+    background: -webkit-linear-gradient(80deg, #eee, rgb(250, 115, 62));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.h-hamburger {
+    height: 3px;
+}
+
+.mt-hamburger {
+    margin-top: 7px;
+}
+
+
+/* media query for large screen */
+
+@media screen and (min-width: 1590px) {
+    .lg-screen {
+        padding: 0px 300px;
+    }
 }

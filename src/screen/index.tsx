@@ -4,9 +4,9 @@ import Navbar from "../components/navbar";
 
 const Index = () => {
   return (
-    <div className="h-screen bg-dark text-white px-20 antialiased">
+    <div className="h-screen bg-dark text-white px-20 antialiased lg-screen">
       <Navbar />
-      <Hero />
+      {/* <Hero /> */}
     </div>
   );
 };
