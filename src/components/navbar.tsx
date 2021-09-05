@@ -11,12 +11,27 @@ const Navbar = () => {
       </div>
       <div
         className={
-          state
-            ? "w-full absolute top-3 left-0 h-80 mt-10 bg-gray-900"
-            : "hidden"
+          state ? "w-full absolute top-3 left-0 mt-10 bg-menu" : "hidden"
         }
       >
-        menu
+        <ul className="m-5 p-2 rounded-md">
+          <li className="mt-2 px-5 py-3 bg-gray-500 rounded-md shadow-md flex justify-between items-center font-bold scale-0 scale-menu">
+            Home
+            <span className="fa fa-home text-xl"></span>
+          </li>
+
+          <li className="mt-2 px-5 py-3 bg-gray-500 rounded-md shadow-md flex justify-between items-center font-bold">
+            About us
+            <span className="fa fa-info text-xl"></span>
+          </li>
+          <li className="mt-2 px-5 py-3 bg-gray-500 rounded-md shadow-md flex justify-between items-center font-bold">
+            Contact
+            <span className="fa fa-phone text-xl"></span>
+          </li>
+          <li className="mt-2 px-5 py-3 bg-green-500 rounded-md shadow-md text-center ">
+            <span className="font-gradient">Become mentor</span>
+          </li>
+        </ul>
       </div>
       <div
         className="cursor-pointer"

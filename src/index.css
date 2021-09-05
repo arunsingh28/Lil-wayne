@@ -56,6 +56,14 @@
     left: 20px;
 }
 
+.scale-menu {
+    transition: all 0.2s ease-in-out;
+}
+
+.scale-menu:hover {
+    transform: scale(1.01) !important;
+}
+
 .heading {
     font-size: 60px;
     line-height: 50px;
@@ -88,6 +96,10 @@
     }
 }
 
+.bg-menu {
+    background-color: #2c2c2c;
+}
+
 
 /* animation for hamburger menu */
 
@@ -102,4 +114,8 @@
     animation: close;
     animation-duration: 0.2s;
     margin-top: 10px;
+}
+
+.scale-menu {
+    transform: scale(1.2);
 }
